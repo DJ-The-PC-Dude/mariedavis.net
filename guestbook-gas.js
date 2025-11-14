@@ -1,4 +1,4 @@
-const WEB_APP_URL = "https://script.google.com/macros/s/AKfycbw6c1lmpmznsWdZUTdXe_Wb6QHqVVzlM6JFNh5nefo4l0yL8_QY6M9dnX3ZCx72C5t5ww/exec";
+const WEB_APP_URL = "https://script.google.com/macros/s/AKfycbzkH3iZGR98A0jbCVrDhlZXQ4E8nkSZyh-CLVvfMEgUF59e1ESQht78tqBCgHrV4WVt/exec";
 
 document.addEventListener("DOMContentLoaded", () => {
   const form = document.getElementById("guestForm");
@@ -72,3 +72,4 @@ async function loadGuestbook() {
     out.innerHTML = "<li>Could not load guestbook.</li>";
   }
 }
+
